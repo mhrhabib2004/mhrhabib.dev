@@ -26,7 +26,7 @@ const Projects = () => {
     <p className="text-lg font-medium">Description : <span className="text-[16px] font-normal"> A sanctuary where comfort meets elegance. Enjoy spacious interiors, abundant natural light, and exquisite finishes. Every detail, from the cozy fireplace to the gourmet kitchen, is designed to create cherished memories and provide an unparalleled living experience. Welcome to a home where dreams come to life. </span></p>
     <h1 className="text-lg font-medium">Features : <span className="text-[16px] font-normal">
     <li>User friendly interface and easy to navigate</li>
-    <li>For details click the view property button, it's also helpful</li>
+    <li>For details click the view property button, it is also helpful</li>
     <li>Your choice home aslo added here in also team,contact us, and two conditional rout</li>
     
         </span> 

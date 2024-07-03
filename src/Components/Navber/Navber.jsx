@@ -8,6 +8,7 @@ const Navber = () => {
     <div className="flex gap-5 text-[16px] font-medium ">
     <Link href={'/'}><li> Home </li></Link>
     <Link href={'aboutme'}><li> About Me </li></Link>
+    <Link href={'skills'}><li> Skills </li></Link>
     <Link href={'resume'}><li> My Resume </li></Link>
     </div>
    

@@ -3,7 +3,8 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='mt-5 w-[95%] md:w-[70%] mx-auto '>
+        <div className='bg-gradient-to-r from-purple-300 '>
+          <div className='mt-5 w-[95%] md:w-[70%] mx-auto py-7  '>
             <h1 className='text-center md:text-5xl font-bold text-3xl'>My Skills</h1>
             {/* skill card */}
             <div className='grid grid-cols-2 gap-4 mt-7 md:grid-cols-4 lg:grid-cols-5'>
@@ -220,6 +221,7 @@ const Skills = () => {
   
 
             </div>
+        </div>
         </div>
     );
 };

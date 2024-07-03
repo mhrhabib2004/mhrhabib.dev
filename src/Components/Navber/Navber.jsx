@@ -1,10 +1,19 @@
+import Image from "next/image";
+import Link from "next/link";
+
 
 const Navber = () => {
     const navlinks= <>
-    <li><a>Item 1</a></li>
+  
+    <div className="flex gap-5 text-[16px] font-medium ">
+    <Link href={'/'}><li> Home </li></Link>
+    <Link href={'aboutme'}><li> About Me </li></Link>
+    <Link href={'resume'}><li> My Resume </li></Link>
+    </div>
+   
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar  top-0 left-0 right-0 fixed z-10  opacity-60  rounded-md bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,7 +37,11 @@ const Navber = () => {
         
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn  text-xl">
+      {/* <Image className="" width={100}
+    height={120}alt="" src="https://i.ibb.co/qmybTCh/Whats-App-Image-2024-07-03-at-05-36-24-23986f04.jpg"></Image> */}
+  <span className="md:text-3xl tex-xl font-bold">DEV MHR HABIB</span>
+    </a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

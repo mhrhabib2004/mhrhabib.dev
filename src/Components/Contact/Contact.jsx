@@ -1,10 +1,11 @@
 "use client"
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaDiscord, FaFacebook, FaGithub, FaInstagramSquare, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import emailjs from '@emailjs/browser';
 import { useState, useRef } from "react";
+import Link from "next/link";
 
 
 
@@ -77,6 +78,7 @@ const Contact = () => {
               <p className=" text-[16px]  text-black font-medium">
                 mhrhabibdev@gmail.com
               </p>
+              
             </div>
             <div className="flex items-center text-xl text-green-500 gap-5">
               <FaPhoneAlt />
@@ -85,6 +87,13 @@ const Contact = () => {
 
               </p>
             </div>
+            <div className="flex items-center mt-5 justify-center gap-5">
+        <Link className="text-4xl" href={'https://www.facebook.com/dmmhrhabib'} target="_blank"> <FaFacebook /> </Link>
+        <Link target="_blank" className="text-4xl" href={'https://www.linkedin.com/in/md-habibur-rahman-habib/'}> <FaLinkedin /></Link>
+        <Link target="_blank" className="text-4xl" href={'https://github.com/mhrhabib2004'}> <FaGithub /></Link>
+        <Link target="_blank" className="text-4xl" href={'https://www.instagram.com/dm_habibur_rahman/'}> <FaInstagramSquare /></Link>
+        <Link target="_blank" className="text-4xl" href={'https://discordapp.com/users/mhrhabib1'}> <FaDiscord /></Link>
+      </div>
           </div>
           <div className="divider lg:divider-horizontal"></div>
           <div className="divider divider-start"></div>

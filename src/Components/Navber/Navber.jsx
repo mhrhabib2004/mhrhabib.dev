@@ -14,7 +14,7 @@ const Navber = () => {
    
     </>
     return (
-        <div className="navbar  top-0 left-0 right-0 fixed z-10  opacity-60  rounded-md bg-base-100">
+        <div className="navbar rounded-md bg-gradient-to-r from-purple-300 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -50,9 +50,9 @@ const Navber = () => {
       
     </ul>
   </div>
-  <div className="navbar-end">
+  {/* <div className="navbar-end">
     <a className="btn">Button</a>
-  </div>
+  </div> */}
 </div>
     );
 };

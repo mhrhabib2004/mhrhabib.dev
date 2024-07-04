@@ -6,7 +6,7 @@ const Baner = () => {
     return (
         <div
         
-        className="hero rounded-lg  bg-gradient-to-r from-purple-300 to-purple-200 min-h-screen"
+        className="hero rounded-lg mt-3  bg-gradient-to-r from-purple-300 to-purple-200 min-h-screen"
         >
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="md:w-1/3 ml-7  mt-10 h-auto ">
@@ -32,7 +32,7 @@ const Baner = () => {
       </div>
       <div className="flex justify-between mt-5">
         <Link href={'resume'} className="btn btn-active btn-secondary">See My Resume</Link>
-        <Link href={''} className="btn btn-active btn-secondary">Hire Me</Link>
+        {/* <Link href={''} className="btn btn-active btn-secondary">Hire Me</Link> */}
       
       </div>
     </div>
